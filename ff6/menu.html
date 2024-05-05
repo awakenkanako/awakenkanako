@@ -1,0 +1,60 @@
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_preload_img()
+{ 
+  var img_list = na_preload_img.arguments;
+  if (document.preloadlist == null) 
+    document.preloadlist = new Array();
+  var top = document.preloadlist.length;
+  for (var i=0; i < img_list.length; i++) {
+    document.preloadlist[top+i]     = new Image;
+    document.preloadlist[top+i].src = img_list[i+1];
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+<html>
+	<body bgcolor=black text=white link=#00ffff vlink=#00ffff alink=red><font face=HY¿±¼­M>
+		<a href=top.html target=ff6main OnMouseOut="na_restore_img_src('image1', 'document')" OnMouseOver="na_change_img_src('image1', 'document', 'tina.gif', true)"><img src=tina1.gif align=middle name="image1" border=0 width=32>Home</a><br>
+		<a href=ff6.html target=ff6main OnMouseOut="na_restore_img_src('image2', 'document')" OnMouseOver="na_change_img_src('image2', 'document', 'locke.gif', true)"><img src=locke1.gif align=middle name="image2" border=0 width=32>FF6?</a><br>
+		<a href=char.html target=ff6main OnMouseOut="na_restore_img_src('image3', 'document')" OnMouseOver="na_change_img_src('image3', 'document', 'edgar.gif', true)"><img src=edgar1.gif align=middle name="image3" border=0 width=32>Character</a><br>
+		<a href=magic.html target=ff6main OnMouseOut="na_restore_img_src('image4', 'document')" OnMouseOver="na_change_img_src('image4', 'document', 'mash.gif', true)"><img src=mash1.gif align=middle name="image4" border=0 width=32>Magic</a><br>
+		<a href=ability.html target=ff6main OnMouseOut="na_restore_img_src('image5', 'document')" OnMouseOver="na_change_img_src('image5', 'document', 'shadow.gif', true)"><img src=shadow1.gif align=middle name="image5" border=0 width=32>Ability</a><br>
+		<a href=monster/monster.html target=ff6main OnMouseOut="na_restore_img_src('image6', 'document')" OnMouseOver="na_change_img_src('image6', 'document', 'celes.gif', true)"><img src=celes1.gif align=middle name="image6" border=0 width=32>Monster</a><br>
+		<a href=item.html target=ff6main OnMouseOut="na_restore_img_src('image7', 'document')" OnMouseOver="na_change_img_src('image7', 'document', 'cayenne.gif', true)"><img src=cayenne1.gif align=middle name="image7" border=0 width=32>Item</a><br>
+		<a href=map.html target=ff6main OnMouseOut="na_restore_img_src('image8', 'document')" OnMouseOver="na_change_img_src('image8', 'document', 'gau.gif', true)"><img src=gau1.gif align=middle name="image8" border=0 width=32>Map</a><br>
+		<a href=story/story.html target=ff6main OnMouseOut="na_restore_img_src('image9', 'document')" OnMouseOver="na_change_img_src('image9', 'document', 'setzer.gif', true)"><img src=setzer1.gif align=middle name="image9" border=0 width=32>Story</a><br>
+		<a href=tip.html target=ff6main OnMouseOut="na_restore_img_src('image10', 'document')" OnMouseOver="na_change_img_src('image10', 'document', 'mog.gif', true)"><img src=mog1.gif align=middle name="image10" border=0 width=32>Tip</a><br>
+		<a href=tech.html target=ff6main OnMouseOut="na_restore_img_src('image11', 'document')" OnMouseOver="na_change_img_src('image11', 'document', 'stragos.gif', true)"><img src=stragos1.gif align=middle name="image11" border=0 width=32>Tech</a><br>
+		<a href=pds.html target=ff6main OnMouseOut="na_restore_img_src('image12', 'document')" OnMouseOver="na_change_img_src('image12', 'document', 'relm.gif', true)"><img src=relm1.gif align=middle name="image12" border=0 width=32>PDS</a><br>
+		<!--<a href=http://home.bawi.org/~potator/zb40/zboard.php?id=ff6 target=ff6main OnMouseOut="na_restore_img_src('image13', 'document')" OnMouseOver="na_change_img_src('image13', 'document', 'gogo.gif', true)"><img src=gogo1.gif align=middle name="image13" border=0 width=32>BBS</a><br>-->
+		<a href=http://ff5fan.com/board/list.php?db=ff5fan target=ff6main OnMouseOut="na_restore_img_src('image13', 'document')" OnMouseOver="na_change_img_src('image13', 'document', 'gogo.gif', true)"><img src=gogo1.gif align=middle name="image13" border=0 width=32>BBS</a><br>
+		<a href=../link.html target=ff6main OnMouseOut="na_restore_img_src('image14', 'document')" OnMouseOver="na_change_img_src('image14', 'document', 'umaro.gif', true)"><img src=umaro1.gif align=middle name="image14" border=0 width=32>Link</a><br>
+		¾îÁ¦: <img src=../cgi-bin/tiny.cgi?mode=prev><br>
+		¿À´Ã: <img src=../cgi-bin/tiny.cgi?mode=today><br>
+		ÀüÃ¼: <img src=../cgi-bin/tiny.cgi></font>
+	</body>
+</html>

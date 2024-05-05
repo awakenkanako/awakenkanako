@@ -1,0 +1,123 @@
+<html>
+	<head><title>기사</title></head>
+	<body bgcolor=black text=white link=#00ffff vlink=#00ffff alink=red>
+	<table>
+	<tr>
+	<td rowspan=3><h1>기사(ナイト,Knight):</h1>
+	전사계열에는 필히 마스터가 필요하다. 수비와 공격 양쪽에 능하며
+	체력도 매우 높다. 후반 강력한 기사검이 등장하기 시작하면 진가를 발휘한다.
+	'감싸주다'를 기본으로 가지고 있다.</td>
+	<td width=50><img src=job/000.png width=32></td>
+	<td width=50><img src=job/022.png width=32></td>
+	<td width=50><img src=job/044.png width=32></td>
+	<td width=50><img src=job/065.png width=32></td>
+	<td width=50><img src=job/087.png width=32></td>
+	</tr>
+	<tr>
+	<td colspan=5>무기: 단검,검,기사검</td>
+	</tr>
+	<tr>
+	<td colspan=5>방어: 방패,투구,갑옷,전투복,장갑</td>
+	</tr>
+	<tr>
+	<td>기본어빌리티: !완전방어</td>
+	<td colspan=5>힘+23 민첩+1 체력+20 마력-14</td>
+	</tr>
+	</table>
+	<p>
+		<table>
+			<tr>
+				<td colspan=4><h2>Lv1</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>빈사상태의 동료가 물리공격을 당하면 대신 맞아준다. 생각보다 유용하며, '!완전방어'와 조합하면 꼼수가 가능하다. 예를 들어, 직접공격밖에 하지 않는 적이 있다면, 캐릭터 둘은 빈사상태로, 나머지 둘은 !완전방어만을 입력하면 아군은 전혀 피해를 입지 않을 것이다.</td>
+			</tr>
+			<tr>
+				<td><center><b>감싸주기(かぼう, Cover)</b></center></td>
+				<td>필요ABP: 10</td>
+			</tr>
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv2</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>자기 자신이 다음턴까지 맞을 적의 직접공격에 의한 데미지를 0으로 한다. 별로 쓸모 없어 보이지만.. 쓰기 나름. 앞서 설명한 대로 감싸주기와 조합한 사기성 플레이가 가능하다.</td>
+			</tr>
+			<tr>
+				<td><center><b>!완전방어(!まもり, !Guard)</b></center></td>
+				<td>필요ABP: 30</td>
+				<td></td>
+				<td>대기시간: 1</td>
+			</tr>
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv3</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>무기를 양손으로 잡는다. 데미지가 배가 된다. 주로 초반에 전사계열이 큰 데미지를 위해서 사용된다.</td>
+			</tr>
+			<tr>
+				<td><center><b>양손잡기(りょうてもち, DblGrip)</b></center></td>
+				<td>필요ABP: 50</td>
+				<td>힘+13</td>
+				<td></td>
+			</tr>
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv4</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>방패를 장비한다. 많은 직업이 한쪽 손에 무기를 든 채 다른 한쪽 손을 놀리게 되는데, 방패를 장비함으로써 방어력을 크게 올릴 수 있다.</td>
+			</tr>
+			<tr>
+				<td><center><b>방패장비(たてそうび, Equip <img src=item/shield.gif width=16>)</b></center></td>
+				<td>필요ABP: 100</td>
+			</tr>
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv5</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>갑옷, 전투복을 장비한다. 로브 중에도 좋은 것이 많아 방패보다는 중요성이 덜하지만, 갑옷의 방어력은 방패보다 훨씬 좋은 것이 많다.</td>
+			</tr>
+			<tr>
+				<td><center><b>갑옷장비<br>(よろいそうび, Equip <img src=item/armor.gif width=16>)</b></center></td>
+				<td>필요ABP: 150</td>
+			</tr>
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv6</h2></td>
+			</tr>
+			<tr>
+				<td><img src=test.png></td>
+				<td colspan=3>검, 기사검을 장비한다. 검은 가장 강력한 무기들로, 다른 직업에서 큰 데미지를 기대할 때 잘 쓰인다. 특히 흉내내기를 전사계로 활용할 때, 최강의 위력을 가진 기사검을 활용하기 위해서 애용할 일이 잦다.</td>
+			</tr>
+			<tr>
+				<td><center><b>검장비(けんそうび, Equip <img src=item/sword.gif width=16>)</b></center></td>
+				<td>필요ABP: 350</td>
+				<td>힘=23</td>
+			</tr>
+		</table>
+	</body>
+</html>
+<!--
+			<tr><td>&nbsp;<p></td></tr>
+			<tr>
+				<td colspan=4><h2>Lv</h2></td>
+			</tr>
+			<tr>
+				<td><img src=.png></td>
+				<td colspan=3></td>
+			</tr>
+			<tr>
+				<td><center><b></b></center></td>
+				<td>필요ABP: </td>
+				<td>힘 민첩 체력 마력</td>
+				<td>대기시간: </td>
+			</tr>
+-->
